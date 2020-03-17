@@ -51,6 +51,10 @@ d3data = SellDataset(d3_term_num, d3_src_file, d3=True).d3data
 
 @allure.feature("销售接口-3D玩法")
 class Test3DSell:
+    """
+    3d玩法的测试用例，使用了parametrize来进行参数化，没有使用fixture，目的是为了减少玩法数据在conftest使用fixture初始化时，有一个
+    出现问题导致，其他都失败
+    """
     @allure.story("单式测试用例")
     @allure.severity(allure.severity_level.CRITICAL)
     @allure.title('3D_danshi_case')
