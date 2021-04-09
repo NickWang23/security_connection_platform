@@ -26,5 +26,6 @@ An automated testing framework
     <ul>conftest.py中是框架实现的hook函数、fixture函数和生成测试用例id的辅助函数</ul>
     <ul>init_config.py读取配置信息，进行框架初始化信息的设置</ul>
     <ul>setting_initial_env.py存放所有接口公用的工具类和方法</ul>
+    <ul>sm4decode.py加解密工具模块</ul>
     
 </html>
